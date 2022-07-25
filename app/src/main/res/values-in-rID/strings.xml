@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="button">Klik aku</string>
+    <string name="txtest">Bagus</string>
+
+    <string name="onStartInfo">onStart Dijalankan</string>
+    <string name="onResumeInfo">onResume Dijalankan</string>
+    <string name="onPauseInfo">onPause Dijalankan</string>
+    <string name="onStopInfo">onStop Dijalankan</string>
+    <string name="onDestroyInfo">onDestroy Dijalankan</string>
+</resources>
