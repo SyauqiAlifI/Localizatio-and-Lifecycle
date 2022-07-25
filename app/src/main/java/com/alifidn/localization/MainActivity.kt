@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        Toast.makeText(this, "Beep ${getString(R.string.onCreateInfo)} Main", Toast.LENGTH_SHORT).show()
+        Log.d("Activity", "onCreate Info Main")
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

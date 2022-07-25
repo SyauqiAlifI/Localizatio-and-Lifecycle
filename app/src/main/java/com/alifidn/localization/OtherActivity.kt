@@ -17,6 +17,10 @@ class OtherActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        Toast.makeText(this, "Boop ${getString(R.string.onCreateInfo)} Other", Toast.LENGTH_SHORT).show()
+        Log.d("Activity", "onCreate Info Main")
+
         _binding = ActivityOtherBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

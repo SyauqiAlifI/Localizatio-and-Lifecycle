@@ -5,6 +5,7 @@
     <string name="txtest">Bagus</string>
 
     <string name="onStartInfo">Ran onStart In</string>
+    <string name="onCreateInfo">Ran onCreate In</string>
     <string name="onResumeInfo">Ran onResume In</string>
     <string name="onPauseInfo">Ran onPause In</string>
     <string name="onStopInfo">Ran onStop In</string>

@@ -6,6 +6,7 @@
     <string name="txtest">Bagus</string>
 
     <string name="onStartInfo">onStart Dijalankan Di</string>
+    <string name="onCreateInfo">onCreate Dijalankan Di</string>
     <string name="onResumeInfo">onResume Dijalankan Di</string>
     <string name="onPauseInfo">onPause Dijalankan Di</string>
     <string name="onStopInfo">onStop Dijalankan Di</string>
