@@ -35,31 +35,31 @@ class OtherActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Toast.makeText(this, "Boop ${R.string.onStartInfo} Other", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Boop ${getString(R.string.onStartInfo)} Other", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onStart Info Other")
     }
 
     override fun onResume() {
         super.onResume()
-        Toast.makeText(this, "Boop ${R.string.onResumeInfo} Other", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Boop ${getString(R.string.onResumeInfo)} Other", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onResume Info Other")
     }
 
     override fun onPause() {
         super.onPause()
-        Toast.makeText(this, "Boop ${R.string.onPauseInfo} Other", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Boop ${getString(R.string.onPauseInfo)} Other", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onPause Info Other")
     }
 
     override fun onStop() {
         super.onStop()
-        Toast.makeText(this, "Boop ${R.string.onStopInfo} Other", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Boop ${getString(R.string.onStopInfo)} Other", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onStop Info Other")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Toast.makeText(this, "Boop ${R.string.onDestroyInfo} Other", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Boop ${getString(R.string.onDestroyInfo)} Other", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onDestroy Info Other")
     }
 }

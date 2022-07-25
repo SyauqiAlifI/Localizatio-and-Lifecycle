@@ -34,31 +34,31 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Toast.makeText(this, "Beep ${R.string.onStartInfo} Main", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Beep ${getString(R.string.onStartInfo)} Main", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onStart Info Main")
     }
 
     override fun onResume() {
         super.onResume()
-        Toast.makeText(this, "Beep ${R.string.onResumeInfo} Main", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Beep ${getString(R.string.onResumeInfo)} Main", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onResume Info Main")
     }
 
     override fun onPause() {
         super.onPause()
-        Toast.makeText(this, "Beep ${R.string.onPauseInfo} Main", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Beep ${getString(R.string.onPauseInfo)} Main", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onPause Info Main")
     }
 
     override fun onStop() {
         super.onStop()
-        Toast.makeText(this, "Beep ${R.string.onStopInfo} Main", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Beep ${getString(R.string.onStopInfo)} Main", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onStop Info Main")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Toast.makeText(this, "Beep ${R.string.onDestroyInfo} Main", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Beep ${getString(R.string.onDestroyInfo)} Main", Toast.LENGTH_SHORT).show()
         Log.d("Activity", "onDestroy Info Main")
     }
 }

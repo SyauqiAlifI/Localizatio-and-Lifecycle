@@ -5,9 +5,9 @@
     <string name="button">Klik aku</string>
     <string name="txtest">Bagus</string>
 
-    <string name="onStartInfo">onStart Dijalankan</string>
-    <string name="onResumeInfo">onResume Dijalankan</string>
-    <string name="onPauseInfo">onPause Dijalankan</string>
-    <string name="onStopInfo">onStop Dijalankan</string>
-    <string name="onDestroyInfo">onDestroy Dijalankan</string>
+    <string name="onStartInfo">onStart Dijalankan Di</string>
+    <string name="onResumeInfo">onResume Dijalankan Di</string>
+    <string name="onPauseInfo">onPause Dijalankan Di</string>
+    <string name="onStopInfo">onStop Dijalankan Di</string>
+    <string name="onDestroyInfo">onDestroy Dijalankan Di</string>
 </resources>

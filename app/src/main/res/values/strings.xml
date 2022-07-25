@@ -4,9 +4,9 @@
     <string name="button">Click me</string>
     <string name="txtest">Bagus</string>
 
-    <string name="onStartInfo">Ran onStart</string>
-    <string name="onResumeInfo">Ran onResume</string>
-    <string name="onPauseInfo">Ran onPause</string>
-    <string name="onStopInfo">Ran onStop</string>
-    <string name="onDestroyInfo">Ran onDestroy</string>
+    <string name="onStartInfo">Ran onStart In</string>
+    <string name="onResumeInfo">Ran onResume In</string>
+    <string name="onPauseInfo">Ran onPause In</string>
+    <string name="onStopInfo">Ran onStop In</string>
+    <string name="onDestroyInfo">Ran onDestroy In</string>
 </resources>
